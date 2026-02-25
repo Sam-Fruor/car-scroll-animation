@@ -45,3 +45,20 @@ To run this project on your local machine:
 1. Clone the repository:
    ```bash
    git clone [https://github.com/Sam-Fruor/car-scroll-animation.git](https://github.com/Sam-Fruor/car-scroll-animation.git)
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Sam-Fruor/car-scroll-animation.git](https://github.com/Sam-Fruor/car-scroll-animation.git)
+2. Navigate to the directory:
+   ```bash
+   cd car-scroll-animation
+
+3. Install dependencies (if you haven't already):
+   ```bash
+   npm install
+
+5. Start the development server:
+   ```bash
+   npm run dev
+   
+7. Open http://localhost:3000 in your browser.
