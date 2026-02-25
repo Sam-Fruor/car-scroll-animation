@@ -146,7 +146,7 @@ export default function ScrollHero() {
       <div className="absolute bottom-10 w-full flex justify-center z-20 pointer-events-none">
         <div ref={carRef} className="w-[80vw] max-w-[1000px]">
           <Image 
-            src="/car.png" 
+            src="/car-scroll-animation/car.png" 
             alt="Sports Car" 
             width={1200} 
             height={600} 
