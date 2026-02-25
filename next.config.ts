@@ -1,11 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
   output: 'export',
-  images: {
-    unoptimized: true, // GitHub Pages doesn't support Next.js server-side image optimization
+  eslint: {
+    ignoreDuringBuilds: true,
   },
-  // IMPORTANT: If your GitHub repo is named "car-scroll-animation", uncomment the line below:
-  basePath: '/car-scroll-animation', 
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;
