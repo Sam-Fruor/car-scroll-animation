@@ -146,11 +146,11 @@ export default function ScrollHero() {
       <div className="absolute bottom-10 w-full flex justify-center z-20 pointer-events-none">
         <div ref={carRef} className="w-[80vw] max-w-[1000px]">
           <Image 
-            src="/image.jpg" 
+            src="/car.png" 
             alt="Sports Car" 
             width={1200} 
             height={600} 
-            className="w-full h-auto object-contain drop-shadow-2xl"
+            className="car-visual w-full h-auto object-contain drop-shadow-[0_20px_50px_rgba(255,100,0,0.15)] will-change-transform"
             priority
           />
         </div>
